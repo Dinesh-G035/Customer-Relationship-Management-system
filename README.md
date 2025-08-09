@@ -114,18 +114,15 @@ Before starting, ensure you have the following installed and configured on your 
 - Compile all Java source files, specifying the MySQL driver in the classpath:
 
   ```bash
-  javac -cp "lib/mysql-connector-java-x.x.xx.jar" -d bin src/**/*.java
+  javac App.java
   ```
 
 - Run the application with:
 
   ```bash
-  java -cp "bin:lib/mysql-connector-java-x.x.xx.jar" Main
+  java App
   ```
 
-  *(On Windows replace `:` with `;` in classpath.)*
-
----
 
 ## Using the CRM System
 
